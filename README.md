@@ -399,7 +399,7 @@ SGw: observable is for the case where a spectra is represented with a 2 row imag
 
 # The Relationship to Long-Term Storage
 
-CAOM2, and the services and databases that implement it, is the metadata record that supports findability. Once files have been found, they need to be used. For that, there is the [Storage Inventory](https://github.com/opencadc/storage-inventory). SI manages data, in the form of archival file storage for science data archives.
+CAOM2, and the services and databases that implement it, is the metadata record that supports findability. Once files have been found, they are going to be used. For that, there is the [Storage Inventory](https://github.com/opencadc/storage-inventory). SI manages data, in the form of archival file storage for science data archives.
 
 The relationship between the metadata and the data is expressed in the value of the `Artifact.uri`.
 
