@@ -240,6 +240,13 @@ For the example of `CTYPE1`:
 
 The software takes the information stored in this blueprint, and processed the FITS header information based on that. When trying to set a value for  Chunk.position.axis.axis1.ctype it will look in the FITS header at the value of the keyword CTYPE1, and use that value if it exists.
 
+Blueprint Warning: if two different blueprint entries:
+1. reference the same FITS keyword,
+1. have different default values, and
+1. the FITS keyword is not in the original file
+
+then the default value that ends up in the CAOM record is the first default value encountered.
+
 ## Cardinality Examples 
 
 TBD
